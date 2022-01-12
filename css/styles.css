@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spline Sans', sans-serif;
+    color: #323232;
+    background-image: url(/img/back.jpg);
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+#login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #eee;
+    padding: 40px;
+    border-radius: 15px;
+    width: 280px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.header {
+    padding-bottom: 30px;
+    opacity: 0.8;
+    color: #2F4F4F;
+    font-size: 25px;
+    text-align: left;
+}
+
+.header::after {
+    content: "";
+    width: 280px;
+    height: 3px;
+    background-color: #2F4F4F;
+    display: block;
+    margin-top: -25px;
+    margin-left: 2px;
+}
+
+.card-content label {
+    color: #323232;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.card-content-area input {
+    margin-top: 2px;
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+    outline: none;
+    color: #323232;
+    font-size: 14px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit {
+    width: 100%;
+    height: 40px;
+    background-color: #2F4F4F;
+    border: none;
+    color: #eee;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.card-footer a {
+    text-align: right;
+    font-size: 13px;
+    opacity: 0.8;
+    color: #2F4F4F;
+    text-decoration: none;
+}
+
+#social-container {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.register-container {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.register-container a {
+    font-size: 16px;
+    color: #2F4F4F;
+}
+
+a:hover {
+    color: #000000;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #eee;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3B5993;
+}
+
+.fa-linkedin {
+    background-color: #0077b5;
+}
